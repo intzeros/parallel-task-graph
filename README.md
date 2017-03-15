@@ -1,7 +1,7 @@
 # parallel-tasks-graph
 Task scheduling based on thread pool. Getting parallel tasks for a given dependency graph (or task graph), which is a DAG, via topological sorting. Then put these tasks into thread pool.
 
-An input DAG looks like this: (in main.cpp)
+An input dependency graph looks like this: (in main.cpp)
 
 <img src="https://github.com/lszero/parallel-task-graph/blob/master/DAG.png" width = "300" height = "200" alt="DAG" align=center />
 
