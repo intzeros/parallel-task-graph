@@ -193,4 +193,4 @@ int main(int argc, char** argv){
     printf("\ntopological sorting execution time: %.2f s\n", topolsort_dura);
     printf("process all tasks execution time: %.2f s\n", processtasks_dura);
     return 0;
-}
+} 
