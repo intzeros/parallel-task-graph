@@ -9,5 +9,5 @@ An input dependency graph looks like this: (in main.cpp)
 ```shell
 g++ -std=c++11 -lboost_program_options main.cpp -o test
 ./test --help
-./test --nthread 4
+./test --nthreads 4
 ```
