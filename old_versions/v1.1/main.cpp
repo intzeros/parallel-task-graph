@@ -1,5 +1,5 @@
 /*
-    @basic static task scheduling.
+    @basic level-based static task scheduling.
 
     @detail (1) using topological sorting to convert task dependancy graph (DAG) to a tree-struction.
             (2) for each level in tree-struction, adding all tasks to thread pool.
