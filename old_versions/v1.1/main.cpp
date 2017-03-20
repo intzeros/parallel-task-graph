@@ -138,7 +138,7 @@ void scheduling(vector<vector<TaskNode*>> &topolOrder, unordered_map<TaskNode*, 
 
         for(int j = 0; j < results.size(); j++){
             cout << "task_" << "" << topolOrder[i][j]->id << " result: " << results[j].get() << endl;
-        }
+        } 
     }
 }
 
