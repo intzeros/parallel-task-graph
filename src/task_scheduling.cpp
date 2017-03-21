@@ -3,9 +3,11 @@
 
     @detail (1) using topological sorting to convert task dependency graph (DAG) to a tree-struction.
             (2) scheduling strategy:
-                step 1. add all leaf nodes to Q. (Q is a priority_queue, sorting by node's level)
-                step 2. if a node has been finished, check the dependency of its parent node. 
-                    if its parent node has no dependency, add this parent node to Q.
+                step 1. push all leaf nodes into Q. (Q is a priority queue, sorting by node's level)
+                step 2. when a task node is done, update tree info.
+                    then check the dependency of its parent node. if its parent node has no dependency, 
+                    push this parent node into Q.
+            (3) once a node has been pushed into Q, add top element of Q into thread pool.
 
     @author lszero
     @version    3.0
